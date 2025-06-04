@@ -34,16 +34,18 @@ Proyecto_Sprint_7/
 ## Cómo ejecutar la aplicación
 
 1. Asegúrate de tener creado y activado tu entorno virtual:
-
 ```bash
 python -m venv vehicles_env
-source vehicles_env/bin/activate  
+source vehicles_env/bin/activate 
+```
 
-2. Instala las dependencias:
-
+2. Instala las dependencias
+```bash
 pip install -r requirements.txt
+```
 
 3. Ejecuta la aplicación:
-
+```bash
 streamlit run app.py
+```
 
