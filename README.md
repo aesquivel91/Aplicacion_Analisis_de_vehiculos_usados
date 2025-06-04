@@ -9,27 +9,15 @@ Esta aplicación web interactiva permite explorar un conjunto de datos de anunci
 - **Gráfico de dispersión** para analizar la relación entre el año del modelo (`model_year`) y el precio (`price`).
 - Controles dinámicos mediante **botones** 
 
-## Cómo ejecutarlo
-
-En la terminal, estando en la raíz del proyecto, ejecuta:
-
-streamlit run app.py
-
-
-Asegúrate de tener el entorno virtual activado y las dependencias instaladas desde `requirements.txt`.
-
 ## Estructura
 
 Proyecto_Sprint_7/
-│
-├── vehicles_us.csv # Archivo de datos
-│
-├── notebooks/
-│ └── EDA.ipynb # Análisis exploratorio en Jupyter
-│
-├── app.py # Aplicación principal con Streamlit
-├── requirements.txt # Dependencias del proyecto
-└── README.md # Este archivo
+- vehicles_us.csv # Archivo de datos
+- notebooks/
+    - EDA.ipynb # Análisis exploratorio en Jupyter
+- app.py # Aplicación principal con Streamlit
+- requirements.txt # Dependencias del proyecto
+- README.md # Este archivo
 
 ## Cómo ejecutar la aplicación
 
