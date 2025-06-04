@@ -32,7 +32,7 @@ if scatter_button:
     st.plotly_chart(fig_scatter, use_container_width=True)
 
 # -------------------------
-# OPCIONAL: Usando CHECKBOXES
+# Usando CHECKBOXES
 # -------------------------
 build_hist = st.checkbox('Construir histograma de odómetro')
 if build_hist:

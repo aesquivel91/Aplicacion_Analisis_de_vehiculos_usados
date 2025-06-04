@@ -5,9 +5,9 @@ Esta aplicación web interactiva permite explorar un conjunto de datos de anunci
 
 ## Funcionalidad
 
-- Visualización de la distribución del kilometraje (`odometer`) con un histograma interactivo.
-- Análisis de la relación entre año del modelo y precio con un gráfico de dispersión.
-- Interfaz construida con Streamlit y visualizaciones en Plotly Express.
+- **Histograma interactivo** para visualizar la distribución del kilometraje (`odometer`) de los vehículos.
+- **Gráfico de dispersión** para analizar la relación entre el año del modelo (`model_year`) y el precio (`price`).
+- Controles dinámicos mediante **botones** 
 
 ## Cómo ejecutarlo
 
@@ -17,4 +17,33 @@ streamlit run app.py
 
 
 Asegúrate de tener el entorno virtual activado y las dependencias instaladas desde `requirements.txt`.
+
+## Estructura
+
+Proyecto_Sprint_7/
+│
+├── vehicles_us.csv # Archivo de datos
+│
+├── notebooks/
+│ └── EDA.ipynb # Análisis exploratorio en Jupyter
+│
+├── app.py # Aplicación principal con Streamlit
+├── requirements.txt # Dependencias del proyecto
+└── README.md # Este archivo
+
+## Cómo ejecutar la aplicación
+
+1. Asegúrate de tener creado y activado tu entorno virtual:
+
+```bash
+python -m venv vehicles_env
+source vehicles_env/bin/activate  
+
+2. Instala las dependencias:
+
+pip install -r requirements.txt
+
+3. Ejecuta la aplicación:
+
+streamlit run app.py
 
