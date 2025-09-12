@@ -1,4 +1,3 @@
-# Proyecto_Sprint_7
 # Aplicación Streamlit: Análisis de Vehículos Usados
 
 Esta aplicación web interactiva permite explorar un conjunto de datos de anuncios de venta de vehículos en EE.UU.
