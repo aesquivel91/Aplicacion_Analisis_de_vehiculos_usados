@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="vehicles.jpg" alt="Vehicles Analysis Banner" width="800">
+</p>
+
 # 🚗 Aplicación Streamlit: Análisis de Vehículos Usados
 
 ## 📋 Descripción General
